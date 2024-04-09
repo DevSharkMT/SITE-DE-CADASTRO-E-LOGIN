@@ -1,0 +1,53 @@
+.tela_inicial {
+    text-align: center;
+    color: aqua;
+    font-size: 35px;
+    font-family: fantasy;
+    margin-top: 5%;
+    text-shadow: 5px 5px 5px black;
+}
+
+input {
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    color:rgb(0, 0, 0);
+    text-decoration: rgb(255, 255, 255);
+    border: 2.0px  solid white;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 1%;
+    margin-left: 1%;
+}
+.botao {
+    background-color: rgb(0, 0, 0);
+    color:aqua;
+    border-radius: 60%;
+    border-color: rgb(5, 42, 255);
+    height: 50px;
+    width: 165px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    font-size: 25px;
+}
+.botao_cad {
+    margin-top: 10%;
+}
+
+.bt_cad button{
+    background-color: rgb(0, 0, 0);
+    color:aqua;
+    border-radius: 5%;
+    border-color: rgb(5, 42, 255);
+    height: 50px;
+    width: 220px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    font-size: 25px;
+}

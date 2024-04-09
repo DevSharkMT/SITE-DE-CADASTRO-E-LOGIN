@@ -1,0 +1,35 @@
+.listagem_text {
+    font-family:sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 7px 7px 7px black;
+}
+
+.tabela_listar {
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-size: 22px;
+    width: 80%;
+}
+
+table tr td {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 4px double black;
+    height: 50px;
+    background-color: black;
+    width: 30%;
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0.4)!important;
+}
+
+button {
+    font-size: 20px;
+    font-family:fantasy;
+    background-color: black;
+    color: black;
+    border-radius: 10%;
+}

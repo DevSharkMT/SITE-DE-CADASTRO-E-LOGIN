@@ -1,0 +1,39 @@
+.texto_1 {
+    font-family:fantasy;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 5%;
+}
+.formulario_usuario {
+    margin-top: 10%;
+    margin-left: 42%;
+}
+
+.login_senha {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: aqua;
+}
+
+.enviar_2 input {
+    font-family: fantasy;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    color:aqua;
+    text-decoration: white;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 60px;
+    width: 120px;
+    font-size: 25px;
+    margin-left: 8%;
+}
+
+input {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: white;
+    opacity: 0.6;
+    border-style:initial;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+.Formulario {
+    font-size: 50px;
+    font-family: fantasy;
+    color: white;
+    margin-top: 10%;
+}
+.container {
+    background: rgb(0, 0, 0);
+}
+
+.card {
+    background: linear-gradient(-450deg, rgb(122, 121, 121), rgb(0, 0, 0),rgb(146, 145, 145));
+    height: 100%;
+}
+
+.form-group {
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.enviar input {
+    color: rgb(255, 255, 255);
+    background: black;
+    margin-top: 3%;
+}

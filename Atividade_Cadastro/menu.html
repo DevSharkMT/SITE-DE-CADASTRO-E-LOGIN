@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU PRINCIPAL</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url(Imagens/lol_2.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+        <div class="imagem">
+            <center>
+                <img src="Imagens/tuba.png" alt="error">
+            </center> 
+        </div>
+
+    <div class="botoes">
+        <div class="botao_cadastrar">
+            <a href="cadastro.html" style="color: black;">CADASTRAR CLIENTE</a>
+        </div>
+        <br>
+        <div class="botao_cadastrar">
+            <a href="cad_usuario.html" style="color: black;">CADASTRAR OUTRO USUÁRIO</a>
+        </div>
+    </div>
+    <br>
+    <div class="linha">
+        _________________________________________________________
+    </div>
+    <br>
+    <div class="listar">
+        <h1>
+            <a href="listar.php" style="color: aqua; text-decoration: none;">LISTAR TODOS OS CLIENTES</a>
+        </h1>
+    </div>
+
+    <div class="linha">
+        _________________________________________________________
+    </div>
+
+    <br>
+
+    <h2 class="texto_1">PESQUISE PELO ID DE LOGIN OU PELO CPF DO CLIENTE</h2>
+
+    <form method="post" action="pesquisar.php">
+        <input class="botao_pesquisar" type="search" name="dado" id="dado" placeholder="Pesquisar" aria-label="Search">
+        <button type="submit">Pesquisar</button>
+    </form>
+</body>
+</html>
